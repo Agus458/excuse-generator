@@ -23,5 +23,7 @@ function generateExcuse() {
 }
 
 window.onload = () => {
-  document.getElementById("excuse").innerHTML = generateExcuse();
+  document.getElementById("boton").onclick = () => {
+    document.getElementById("excuse").innerHTML = generateExcuse();
+  };
 };
